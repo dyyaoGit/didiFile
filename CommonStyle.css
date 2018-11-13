@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(244, 244, 246);
+
+    padding-top: 44px;
+    padding-bottom: 69px;
+}
+
+.common_header{
+    background-color: rgb(21, 129, 207);
+    text-align: center;
+    font-size: 20px;
+    color: white;
+
+    left: 0;
+    top: 0;
+    width: 100%;
+    line-height: 44px;
+    position: fixed;
+}
+
+.common_section img{
+    width: 100%;
+}
+
+
+footer{
+    display: table;
+    width:100%;
+    background-color: rgb(30, 30, 30);
+
+    position: fixed;
+    left:0;
+    bottom: 0;
+    height: 49px;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer a{
+    display: table-cell;
+    width: 20%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+footer a img{
+    width: 18px;
+}
+
+footer a span{
+    color: white;
+    display: block;
+    font-size: 12px;
+}
+
+.current_a span{
+    color: red;
+}
+
+.BP_external_div {
+    text-align: center;
+    background-color: white;
+}
+
+.BP_common_img{
+    width:100%;
+    padding-top: 15px;
+}
+
+.BP_external_div p{
+    font-size: 12px;
+    color: rgb(105, 106, 107);
+    padding-top: 15px;
+}
+
+.BP_external_div_two {
+    text-align: center;
+}
+
+.BP_common_div{
+    text-align: left;
+}
+
+.BP_external_div_three{
+    text-align: center;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.BP_common_div p{
+    font-size: 12px;
+    color: rgb(105, 106, 107);
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+
+

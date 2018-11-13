@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!--html其中的一个重要组成部分:标签,标签分为两类:双标签和单标签-->
+<!--标签分两类:块级标签（独占一行）;行内标签:不会自动换行（span）-->
+<html lang="en">
+<head>
+    <!--html中的另外一个组成部分:属性-->
+    <meta charset="UTF-8">
+    <!--用来控制网页头部标题的标签-->
+    <title>华杉科技实训周</title>
+    <!--用来链接外部资源的标签-->
+    <link rel="short icon" href="Resource/icon.png">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <link rel="stylesheet" href="CommonStyle.css">
+
+    <!--像这样的样式属于页内样式-->
+    <!--第三部分的样式start-->
+    <style>
+        ul{
+            display: table;
+            width: 100%;
+            margin-bottom: 10px;
+            background: white;
+            height: 100px;
+        }
+        .unique_ul{
+            margin-top: -6px;
+        }
+        ul li{
+            display: table-cell;
+            width: 33.3%;
+            text-align: center;
+        }
+        ul li img{
+            width:36px;
+            padding-top: 15px;
+        }
+        ul li span{
+            display: block;
+        }
+    </style>
+    <!--第三部分的样式end-->
+</head>
+
+<body>
+
+
+<header class="common_header">
+    <!--span用来显示少量文字用的标签-->
+    <!--直接写在标签后面的样式属于行内样式-->
+    <span>小滴服务</span>
+</header>
+
+<section class="common_section">
+    <img src="Resource/banner1.png" alt="请检查您的网络!">
+</section>
+
+<!--第三部分的布局start-->
+<ul class="unique_ul">
+    <li>
+        <img src="Resource/index1.png" alt="">
+        <span>企业项目</span>
+    </li>
+    <li>
+        <img src="Resource/index2.png" alt="">
+        <span>平台风采</span>
+    </li>
+    <li>
+        <img src="Resource/index3.png" alt="">
+        <span>报名流程</span>
+    </li>
+</ul>
+<ul>
+    <li>
+        <img src="Resource/index4.png" alt="">
+        <span>客户管理</span>
+    </li>
+    <li>
+        <img src="Resource/index5.png" alt="">
+        <span>账务管理</span>
+    </li>
+    <li>
+        <img src="Resource/index6.png" alt="">
+        <span>新闻公告</span>
+    </li>
+</ul>
+<ul>
+    <li>
+        <img src="Resource/index7.png" alt="">
+        <span>工程案例</span>
+    </li>
+    <li>
+        <img src="Resource/index8.png" alt="">
+        <span>修改密码</span>
+    </li>
+    <li>
+        <img src="Resource/index9.png" alt="">
+        <span>会员注册</span>
+    </li>
+</ul>
+
+<!--第三部分布局end-->
+
+<footer>
+    <a class="current_a" href="">
+        <img src="Resource/nav11.png" alt="">
+        <span>小滴服务</span>
+    </a>
+    <a href="BusinessProject.html">
+        <img src="Resource/nav20.png" alt="">
+        <span>创业项目</span>
+    </a>
+    <a href="SignUp.html">
+        <img src="Resource/nav30.png" alt="">
+        <span>服务流程</span>
+    </a>
+    <a href="Platform.html">
+        <img src="Resource/nav40.png" alt="">
+        <span>平台风采</span>
+    </a>
+    <a href="MyDropiet.html">
+        <img src="Resource/nav50.png" alt="">
+        <span>我的小滴</span>
+    </a>
+
+</footer>
+
+</body>
+
+</html>

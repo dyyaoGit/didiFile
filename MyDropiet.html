@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>华杉科技实训周</title>
+    <!--用来链接外部资源的标签-->
+    <link rel="short icon" href="Resource/icon.png">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <link rel="stylesheet" href="CommonStyle.css">
+
+    <style>
+        .MD_top_div {
+            /*意味着其内部的子标签都会相对它去定位*/
+            position: relative;
+        }
+        .MD_top_div .MD_bg_img{
+            width: 100%;
+        }
+        .MD_top_div .MD_inner_div{
+            text-align: center;
+
+            position: absolute;
+            width: 66px;
+            height: 77px;
+            left: 50%;
+            top: 50%;
+            margin-left: -33px;
+            margin-top: -59px;
+        }
+        .MD_top_div .MD_inner_div span{
+            display: block;
+            padding-top: 5px;
+        }
+        .MD_top_div .MD_inner_div button {
+            display: block;
+            width: 66px;
+            height: 20px;
+            background-color: rgb(21, 129, 207);
+            margin-top: 5px;
+        }
+
+        .MD_bottom_div{
+            width:100%;
+        }
+        .MD_bottom_inner_div{
+            width: 90%;
+            height: 50px;
+            line-height: 50px;
+            border: 1px solid #cccccc;
+            margin: 10px auto;
+            border-radius: 5px;
+            background-color: white;
+            /*margin-top: 10px;*/
+        }
+        .MD_bottom_div .MD_bottom_inner_div .MD_left_img{
+            float: left;
+            width: 18px;
+            margin-left: 10px;
+            margin-top: 15px;
+            margin-right: 20px;
+
+        }
+        .MD_bottom_div .MD_bottom_inner_div .MD_right_img{
+            float: right;
+            margin-right: 10px;
+            margin-top: 18px;
+        }
+
+    </style>
+
+</head>
+<body>
+<header class="common_header">
+    <span>我的小滴</span>
+</header>
+
+<div class="MD_top_div">
+    <img class="MD_bg_img" src="Resource/banner5.png" alt="">
+    <div class="MD_inner_div">
+        <img src="Resource/head.png" alt="">
+        <span>华杉科技</span>
+        <button>退出登录</button>
+    </div>
+</div>
+
+
+<div class="MD_bottom_div">
+    <div class="MD_bottom_inner_div">
+        <img class="MD_left_img" src="Resource/gr_1.png" alt="">
+        <span>我的客户</span>
+        <img class="MD_right_img" src="Resource/jt.png" alt="">
+    </div>
+    <div class="MD_bottom_inner_div">
+        <img class="MD_left_img" src="Resource/gr_2.png" alt="">
+        <span>我的余额</span>
+        <img class="MD_right_img" src="Resource/jt.png" alt="">
+    </div>
+    <div class="MD_bottom_inner_div">
+        <img class="MD_left_img" src="Resource/gr_3.png" alt="">
+        <span>注册客户</span>
+        <img class="MD_right_img" src="Resource/jt.png" alt="">
+    </div>
+    <div class="MD_bottom_inner_div">
+        <img class="MD_left_img" src="Resource/gr_4.png" alt="">
+        <span>修改密码</span>
+        <img class="MD_right_img" src="Resource/jt.png" alt="">
+    </div>
+</div>
+
+<footer>
+    <a href="DropletService.html">
+        <img src="Resource/nav10.png" alt="">
+        <span>小滴服务</span>
+    </a>
+    <a href="BusinessProject.html">
+        <img src="Resource/nav20.png" alt="">
+        <span>创业项目</span>
+    </a>
+    <a href="SignUp.html">
+        <img src="Resource/nav30.png" alt="">
+        <span>服务流程</span>
+    </a>
+    <a href="Platform.html">
+        <img src="Resource/nav40.png" alt="">
+        <span>平台风采</span>
+    </a>
+    <a class="current_a" href="MyDropiet.html">
+        <img src="Resource/nav51.png" alt="">
+        <span>我的小滴</span>
+    </a>
+
+</footer>
+</body>
+</html>
